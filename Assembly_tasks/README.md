@@ -1,15 +1,15 @@
-// Lebada Daria-Cristiana 313CA
+### Lebada Daria-Cristiana 313CA
 
-Tema 2 - ACS Cat Invasion
-~ IOCLA / PCLP2 ~
+## Tema 2 - ACS Cat Invasion
+### ~ IOCLA / PCLP2 ~
 
-Task 1: Simple Cipher
+### Task 1: Simple Cipher
 Luam fiecare caracter pe rand si il prelucram, adaugand la codul sau ascii numarul
 dat. Ne asiguram ca acest caracter rezultat este mai mic decat 91, iar in sens
 contrar scadem 26 din valoarea sa (cream un ciclu in literele mari ale alfabetului).
 Algoritmul se opreste cand nu mai avem caractere de citit in cuvant.
 
-Task 2: Points
+### Task 2: Points
 a. Points distance:
 Deoarece punctele se afla pe aceeasi dreapta, pentru a calcula distanta este suficient
 sa facem diferenta in modul dintre cele 2 coordonate diferite.
@@ -26,7 +26,7 @@ c. Is square:
 Vom lua fiecare distanta din vector si o vom gasi un patrat perfect mai mare sau egal cu
 acesta.
 
-3. Beaufort Encryption:
+### 3. Beaufort Encryption:
 Folosim 2 contori - pentru cheie, respectiv string. Pentru a parcurge cheia, vom crea un
 ciclu in aceasta (de fiecare data cand contorul ajunge egal cu lungimea cheii, contorul
 va fi reinitializat cu 0). Pentru fiecare litera aplicam formula |ascii_cheie - ascii_string| + 65.
